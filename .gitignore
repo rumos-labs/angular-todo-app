@@ -1,0 +1,73 @@
+# Standard .NET gitignore
+[Dd]ebug/
+[Rr]elease/
+x64/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# .NET Core specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# StyleCop
+StyleCopReport.xml
+
+# Files built by Visual Studio
+*_i.c
+*_p.c
+*.[Pp]ublish.xml
+*.azurePubxml
+*.csproj.user
+*.pubxml
+*.pubxml.user
+
+# Visual Studio 2022+ cache/options directory
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider IDE
+.idea/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Angular specifics
+node_modules/
+jspm_packages/
+dist/
+
+# Editors
+.vscode/
+*.sw*
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Logs
+*.log
+npm-debug.log*
+
+# Optional npm cache directory
+.npm/
